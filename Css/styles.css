@@ -1,0 +1,168 @@
+* {
+    margin: 2;
+    padding: 2;
+}
+header {
+    top: 0;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    background-color: rgba(17, 61, 63, 0.692);
+}
+a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    -webkit-text-stroke: 1px rgba(4, 51, 95, 0.267)
+    
+}
+.titulo {
+color: rgba(109, 160, 255, 0.842);
+font-size: 80px;
+font-style: italic;
+text-align: center;
+-webkit-text-stroke: 3px rgb(0, 132, 255)
+}
+.favicon {
+    transform: rotate(14deg);
+}
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: rgba(240, 40, 247, 0.699);
+    -webkit-text-stroke: 1px; 
+    
+    
+}
+.textoinicio {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0); 
+    
+}
+.fondo2inicio {
+    background-image: url(../fotos/tropical/hojasvolando.png);
+}
+.stitch {
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    padding: 40px;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.redirecciones{
+    text-decoration: none;
+    color: rgb(234, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    -webkit-text-stroke: 1px rgba(189, 10, 135, 0.616)
+    
+    
+}
+#fondotropical {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255))
+}
+.fondotransporte {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255))
+    
+    
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+#listaAutos {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            
+            
+    
+    
+}
+.autos {
+   height: 40%;
+   width: 38%;
+   padding-bottom: 5%;
+
+   
+    
+
+}
+.prisma {
+    text-align: center;
+    height: 50%;
+    width: 70%;
+    margin: 0 auto;
+    
+    
+}
+.prismaImagen {
+    height: 40%;
+    width: 60%;
+    margin: 0 auto;
+}
+.fondoobrasocial {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255))
+}
+#fondotraslados {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255))
+}
+.fondoContacto {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255))
+}
+
+.boxConsultas {
+    background-color: transparent;
+    height: 20%;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding: 40px;
+    }
+.fondoConsultas {
+ background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 238, 255)) 
+}
+.fondoconsultas2 {
+    background-image: url(../fotos/tropical/plantasdeabajo.png);
+}
+legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+iframe {
+    padding: 50px 100px;
+    
+    
+
+}
+#gridIframe {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 70px 100px;
+    gap: 50px;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.521);
+    -webkit-text-stroke: 1px rgb(0, 0, 0)
+    
+    
+}
