@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/styles.css">
     <title>Document</title>
 </head>
@@ -26,25 +27,21 @@
 <fieldset>
     <section class="textoConsultas">
     <legend>Datos personales</legend>
-
-        <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="" id="nombre" placeholder="Ingresa tu nombre completo">
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa tu nombre completo">
         </div>
-    
-        <div>
-        <label for="e-mail">E-mail</label>
-        <input type="email" name="" id="e-mail" required>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">E-mail</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" required>
         </div>
-    
-        <div>
-        <label for="telefono">Telefono</label>
-        <input type="number" name="" id="telefono" required>
-        </div>
-    
-
-        <div>
-            <label for="">Obra social</label>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Telefono</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Obra Social</label>
             <select name="" id="">
                 <option value="" disabled>Seleccione una opcion</option>
                <option value="">Federada salud</option>
@@ -56,12 +53,13 @@
                <option value="">Galeno</option>
                <option value="">OSDE</option>
             </select>
-        </div>
-    </section>
+          </div>
+        
+
     </fieldset>
     
         <textarea placeholder="Escribe tu consulta" name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="enviar">
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
     <div class="fondoconsultas2">
         <img class="boxConsultas" src="../fotos/stitch/Stitchsaludando.png" alt="">

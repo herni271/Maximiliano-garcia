@@ -36,9 +36,9 @@ text-align: center;
     
     
 }
-.textoinicio {
+.textoinicio{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     font-size: 17px;
     color: rgb(0, 0, 0); 
     
@@ -78,7 +78,7 @@ ul {
     
 }
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     font-weight: bold;
     text-align: center;
 }
@@ -147,14 +147,16 @@ label {
     
 }
 iframe {
-    padding: 50px 100px;
+    padding: 10px 50px;
+    
+    
     
     
 
 }
 #gridIframe {
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 600px 500px;
     grid-template-rows: 70px 100px;
     gap: 50px;
 }
